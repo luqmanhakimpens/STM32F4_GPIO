@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="5.4.1 -mcpu=cortex-m4 -mthumb -g -nostartfiles -Map=gpio led.map -O0 --gc-sections -LD:\CoIDE\configuration\ProgramData\gpio led -TD:\CoIDE\configuration\ProgramData\gpio led/arm-gcc-link.ld -g">
+      <target file="gpio led.elf" lastModified="163674d1528">
+         <source file="..\obj\startup_stm32f4xx.o" lastModified="163674d0f67"/>
+         <source file="..\obj\main.o" lastModified="163674d1037"/>
+         <source file="..\obj\stm32f4xx_rcc.o" lastModified="163674d10e6"/>
+         <source file="..\obj\stm32f4xx_gpio.o" lastModified="163674d1178"/>
+         <source file="..\obj\system_stm32f4xx.o" lastModified="163674d11ee"/>
+      </target>
+   </processor>
+</history>
